@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>注册页</title>
+  <title>主页</title>
 
   <!-- Bootstrap -->
   <link href="../lib/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,11 @@
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
       <style>
-
+        .navbar-text .goout {
+          font-size: 20px;
+          font-weight: 700;
+          color: red;
+        }
       </style>
 </head>
 
@@ -38,7 +42,7 @@
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <p class="navbar-text navbar-right">欢迎[么么哒]登录 
-                  <a href="#" class="navbar-link">退出</a>
+                  <a href="/logout" class="navbar-link goout">退出</a>
                 </p>
               </div>
 
@@ -90,6 +94,19 @@
                             <th>操作</th>
                           </tr>
                         </thead>
+                        <tbody>
+                          <tr>
+                            <td>罗建</td>
+                            <td>38</td>
+                            <td>女</td>
+                            <td>182726534352</td>
+                            <td>
+                              <a href="" class="btn btn-success btn-sm">编辑</a>
+                              |
+                              <a href="" class="btn btn-danger btn-sm">删除</a>
+                            </td>
+                          </tr>
+                        </tbody>
                     </table>
                 </div>
               </div>
